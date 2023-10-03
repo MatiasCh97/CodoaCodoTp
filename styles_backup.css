@@ -1,0 +1,273 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.menu {
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    font-weight: bold;
+
+}
+
+.logo {
+    display: flex;
+    align-items: left;
+    padding-bottom: 10px;
+
+
+
+}
+
+#plogo {
+    color: white;
+    padding-top: 20px;
+}
+
+#confs {
+    color: white;
+}
+
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+#conferencia {
+    color: white;
+}
+
+#conferencia:hover {
+    color: grey;
+
+}
+
+#tickets {
+    color: green;
+}
+
+#tickets:hover {
+    color: white;
+
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.fondo {
+    
+
+    background-image: url("ba11.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(66, 62, 62);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    max-height: 600px;
+    width: 100%;
+
+}
+
+.texto {
+    color: white;
+    padding-top: 20%;
+    text-align: right;
+}
+
+#oradores {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 0%;
+
+}
+
+
+#boton1 {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#boton2 {
+
+    color: white;
+    border: 1px solid black;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+body {
+    text-align: center;
+}
+
+
+
+.contenedor-oradores {
+    border: 1px solid rgb(70, 69, 69);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.tarjeta-orador {
+    flex: 0 0 200px;
+}
+
+.tarjeta-orador img {
+    height: 300px;
+
+}
+
+.tarjeta-orador .texto-botones {
+    text-align: left;
+}
+
+.tarjeta-orador h3 {
+    text-align: center;
+}
+
+
+.tarjeta-orador .bibliografia-orador {
+    border: 6px solid rgb(243, 235, 235);
+    border-top: 0;
+}
+
+
+#text1boton1 {
+    border: none;
+    background-color: rgb(255, 187, 0);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#text1boton2 {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(12, 143, 143);
+    cursor: pointer;
+}
+
+#text3boton1 {
+    border: none;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#text3boton2 {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(192, 18, 18);
+    cursor: pointer;
+}
+
+.titulo {
+
+
+    width: 200px;
+    text-align: left;
+
+}
+
+.text {
+    width: 200px;
+
+    text-align: justify;
+
+
+    padding: 5px;
+
+}
+
+.flex_contenedor2 {
+
+    border: 1px transparent rgb(70, 69, 69);
+    display: flex;
+    width: auto;
+    
+    
+}
+
+.cbox1 {
+    display: flex;
+    display: inline-flex;
+
+    align-items: center;
+    margin-right: 0px;
+
+
+
+    
+
+
+
+}
+
+.cbox2 {
+    background-color: rgb(43, 49, 61);
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+#cbox2boton{
+    background: none;
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.c2imagen {
+    margin-right: 5px;
+    width: 800px;
+    height: 400px;
+}
+
+.textcontendor {
+    background-color: rgb(101, 110, 128);
+}
+.labels{
+    
+    align-items: center;
+    
+    
+
+}
+#labeltext{
+    padding: 100px;
+}
+.menu2{
+    color: rebeccapurple;
+    background-color:rgb(101, 110, 128);
+}

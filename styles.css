@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.menu {
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    font-weight: bold;
+
+}
+
+.logo {
+    display: flex;
+    align-items: left;
+    padding-bottom: 10px;
+
+
+
+}
+
+#plogo {
+    color: white;
+    padding-top: 20px;
+}
+
+#confs {
+    color: white;
+}
+
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+#conferencia {
+    color: white;
+}
+
+#conferencia:hover {
+    color: grey;
+
+}
+
+#tickets {
+    color: green;
+}
+
+#tickets:hover {
+    color: white;
+
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+
+.contenedorfondo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("ba11.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+
+}
+
+.textofondo {
+
+    width: 700px;
+    color: white;
+    text-align: left;
+    padding-right: 5%;
+    margin-left: auto;
+    padding-top: 20%;
+    padding-bottom: 5%;
+
+}
+
+
+
+
+
+
+
+
+.textofondo button {
+    font-size: 13px;
+    color: white;
+   
+}
+
+
+.contenedor-oradores {
+    text-align: center;
+    padding: 10px;
+}
+
+.contenedor-oradores p h1 {
+    margin-top: 20px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.tarjeta-orador {
+    border: 1px solid #808080;
+    flex: 0 0 300px;
+    margin: 10px;
+}
+
+.tarjeta-orador img {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 20px;
+
+}
+
+.tarjeta-orador .botones-orador {
+    padding: 3px;
+    text-align: left;
+}
+
+
+.tarjeta-orador .boton-javascript {
+    border: none;
+    background-color: rgb(255, 187, 0);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.tarjeta-orador .boton-react {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(12, 143, 143);
+    cursor: pointer;
+}
+
+.tarjeta-orador .boton-negocios {
+    border: none;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.tarjeta-orador .boton-startups {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(192, 18, 18);
+    cursor: pointer;
+}
+
+.tarjeta-orador h3 {
+    padding: 3px;
+    text-align: left;
+}
+
+
+.tarjeta-orador .bibliografia-orador {
+    border: none;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+.contenedor-publicidad {
+
+    border: 1px transparent rgb(70, 69, 69);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+
+
+}
+
+.box-publicidad-1 {
+    background-image: url("honolulu.jpg");
+    background-size: cover;
+    width: 50%;
+}
+
+.box-publicidad-2 {
+    background-color: rgb(43, 49, 61);
+    text-align: left;
+    color: white;
+    padding: 15px;
+    width: 50%;
+}
+
+.box-publicidad-2 button {
+    font-size: 13px;
+    color: white;
+}
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.box-contacto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+.box-contacto p h3 {
+    padding: 5px;
+}
+
+.box-contacto .btn-primary {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.contenedor-pie {
+    background-color: #0C4A5E;
+    height: 90px;
+}
+
+
+.contenedor-pie .nav {
+    height: 60px;
+    background-color: #17181C;
+    text-align: center;
+}
+
+.contenedor-pie nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 18px;
+}
+
+.contenedor-pie ul li {
+    float: left;
+    margin-top: 20px;
+}
+
+.contenedor-pie ul li a {
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.contenedor-pie ul li a:hover {
+    background-color: #929fb3;
+}
+
+.btn-primary {
+    width: 100px;
+    background-color: #99C700;
+    border-color: #99C700;
+}
+
+.btn-primary {
+    background-color: #99C700;
+    border-color: #99C700;
+}
+
+.btn-primary:hover {
+    background-color: #627A11;
+    border-color: #627A11;
+}
